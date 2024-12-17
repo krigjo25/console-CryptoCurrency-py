@@ -1,35 +1,39 @@
 # BitCoin Price Calculator
 An application to calculates the currency value of a bitcoin, using requests
 
-The application was implemented as an assignment at CS50P
-Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.<br>
-A demo of the application can be watched at [Demo : BitCoin Price Calculator](https://cs50.harvard.edu/python/2022/psets/4/bitcoin/)
+The application was implemented as a CS50 assignment.<br>
+Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
 
+A demo of the application can be watched at [Demo : BitCoin Price Calculator](https://cs50.harvard.edu/python/2022/psets/4/bitcoin/)
 
 ## Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/krigjo25/console-bitcoin-py.git
+# Using SSh 
+ssh git@github.com:krigjo25/console-CryptoCurrency-py.git
+
+# Using git bash
+git clone https://github.com/krigjo25/console-CryptoCurrency-py.git
+
+# Using Github Cli
+gh repo clone console-CryptoCurrency-py
 ```
 
 2. Navigate to the project directory
 ```sh
-cd console-bitcoin-py
+cd console-CryptoCurrency-py
 ```
 
-3. Install the requirements
-```sh
-pip install -r requirements.txt
-```
-4. Run the file
+3. Run the file
 ```sh
 python app.py <Numeric value>
 ```
+
 ##  Usage
 To use the application, run the following command in your terminal
 
 ```sh
-Usage : type in the terminal python app.py, wait for the prompted message
+Usage : type in the terminal python app.py
 then type in some names.
 python app.py <Numeric value>
 ```
@@ -42,14 +46,14 @@ python app.py 1
 expected output:
 $101,314.7735 (14-12-24 14:36)
 ```
-## Credits
-The crypto currency were fetched from [Coin Desk](https://api.coindesk.com/v1/bpi/currentprice.json)
 
 ## LICENCE
 The application is under [The Unlicensed](./LICENCE).
 
 ##  Testing framework / Datasets
-No testing framework for this project
+No testing framework / Datasets for this project.
+
+The Data set came from [Coin Desk](https://api.coindesk.com/v1/bpi/currentprice.json)
 
 ## Notes from the developer
 Created with love, for python programming,
