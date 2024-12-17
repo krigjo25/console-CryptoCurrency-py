@@ -1,4 +1,4 @@
-#   Importing Resposories
+#   BitCoin Price Calculator
 import sys, json, requests
 
 def main():
