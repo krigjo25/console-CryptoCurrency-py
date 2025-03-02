@@ -1,5 +1,5 @@
 # BitCoin Price Calculator
-An application to calculates the currency value of a bitcoin, using requests
+Real-time Bitcoin calculation using requests library
 
 The application was implemented as a CS50 assignment.<br>
 Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
